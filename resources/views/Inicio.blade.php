@@ -32,11 +32,11 @@
         </div>
     </div>
 
-    <div class="row">
+    <div class="row py-4">
         <div class="col-12 text-center">
-            <h4>BIENVENIDOS A UNI PVIT</h4>
+            <h4 class="helvetica font-weight-bold">BIENVENIDOS A UNI PVIT</h4>
             <br>
-            <p>
+            <p class="helvetica font-weight-normal">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit necessitatibus totam ab sunt inventore asperiores ducimus consequatur! Eligendi vel recusandae pariatur dignissimos, in ducimus eaque expedita, quae excepturi esse beatae!
             </p>
             <div class="row">
@@ -56,9 +56,9 @@
         </div>
     </div>
 
-    <div class="row mt-5">
+    <div class="row mt-5 py-4 bg-gris">
         <div class="col-12 text-center">
-            <h3>NUESTRAS CAPACITACIONES</h3>
+            <h3 class="helvetica font-weight-bold">NUESTRAS CAPACITACIONES</h3>
             <br>
             <div class="row">
                 <div class="col-6">
@@ -79,9 +79,9 @@
         </div>
     </div>
 
-    <div class="row">
+    <div class="row py-4">
         <div class="col-12 text-center">
-            <h3>QUIENES NOS APOYAN</h3>
+            <h3 class="helvetica font-weight-bold">QUIENES NOS APOYAN</h3>
             <br>
             <div class="row justify-content-center">
                 <div class="col-2">

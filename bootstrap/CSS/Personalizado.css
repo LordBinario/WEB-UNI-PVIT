@@ -1,0 +1,65 @@
+.bg-blue
+{
+    background-color: #003166;
+}
+
+.bg-gris
+{
+    background-color: #F3F3F3;
+}
+
+.bg-black
+{
+    background-color: black !important;
+}
+
+.btn-orange
+{
+    background-color: #072B90 !important;
+}
+
+.text-blue
+{
+    color: #0071BC !important;
+    font-weight: bold;
+}
+
+.helvetica
+{
+    font-family: 'Helvetica';
+}
+
+::placeholder
+{
+    color: #0071BC !important;
+}
+
+.btn.text-white
+{
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.dropdown-item.active, .dropdown-item:active 
+{
+    color: #fff;
+    text-decoration: none;
+    background-color: #0071BC;
+}
+
+.nav-link.active, .nav-link:active
+{
+    color: #fff;
+    text-decoration: none;
+    background-color: #0071BC;
+}
+
+.navbar
+{
+    padding: 0rem 1rem;
+}
+
+.navbar-nav .nav-link
+{
+    padding: .5rem 0rem;
+}
