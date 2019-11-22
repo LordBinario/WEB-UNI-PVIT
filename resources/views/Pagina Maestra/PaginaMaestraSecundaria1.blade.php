@@ -1,0 +1,2 @@
+@extends('Pagina Maestra.PaginaMaestraPrincipal')    
+

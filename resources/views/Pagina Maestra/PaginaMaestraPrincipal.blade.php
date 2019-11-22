@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="../bootstrap/CSS/Personalizado.css">
+    <!--Función asset() toma por defecto el directorio base donde está alojada la web-->
+    <link rel="stylesheet" href="{{asset('../bootstrap/CSS/Personalizado.css')}}">
     <link href="https://fonts.googleapis.com/css?family=Helvetica&display=swap" rel="stylesheet">
     <title>UNI | PVIT</title>
 </head>
@@ -33,13 +34,13 @@
                         <a class="nav-link text-white" href="#">Descripción<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item mx-2">
-                        <a class="nav-link text-white" href="#">Sobre nosotros</a>
+                        <a class="nav-link text-white" href="{{url('/PVIT/Nosotros/')}}">Sobre nosotros</a>
                     </li>                
                     <li class="nav-item mx-2">
-                        <a class="nav-link text-white" href="#">Coordinandores</a>
+                        <a class="nav-link text-white" href="{{url('/Coordinadores', ['Departamento' => 'BIOMASA'])}}">Coordinandores</a>
                     </li>
                     <li class="nav-item mx-2">
-                        <a class="nav-link text-white" href="#">Líneas de trabajo</a>
+                        <a class="nav-link text-white" href="{{url('/Lineas/')}}">Líneas de trabajo</a>
                     </li>
                     <!--<li class="nav-item mx-2 dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

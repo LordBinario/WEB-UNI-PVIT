@@ -1,11 +1,21 @@
+a:link, a:visited, a:active, a:hover
+{
+    text-decoration: none;
+}
+
 .bg-blue
 {
-    background-color: #003166;
+    background-color: #003166 !important;
+}
+
+.bg-lightblue
+{
+    background-color: #71BCF8 !important;
 }
 
 .bg-gris
 {
-    background-color: #F3F3F3;
+    background-color: #F3F3F3 !important;
 }
 
 .bg-black
@@ -18,10 +28,19 @@
     background-color: #072B90 !important;
 }
 
-.text-blue
+.text-lightblue
 {
     color: #0071BC !important;
-    font-weight: bold;
+}
+
+.text-gris
+{
+    color: #F3F3F3 !important;
+}
+
+.text-blue
+{
+    color: #003166 !important;
 }
 
 .helvetica

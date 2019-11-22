@@ -1,4 +1,4 @@
-@extends('Pagina Maestra.PaginaMaestra')
+@extends('Pagina Maestra.PaginaMaestraPrincipal')
 
 @section('Contenido')
     <div class="row">
