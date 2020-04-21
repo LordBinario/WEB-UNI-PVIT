@@ -29,7 +29,7 @@ return [
     |
     */
 
-    'host' => env('MAIL_HOST', 'smtp.mailgun.org'),
+'host' => env('MAIL_HOST', /*'smtp.gmail.com'*/'smtp.office365.com'),
 
     /*
     |--------------------------------------------------------------------------
@@ -56,8 +56,8 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
-        'name' => env('MAIL_FROM_NAME', 'Example'),
+    'address' => env('MAIL_FROM_ADDRESS', /*'vallecillosamuelenoc@gmail.com'*/'contacto@pvit.uni.edu.ni'),
+        'name' => env('MAIL_FROM_NAME', 'Página web UNI PVIT'),
     ],
 
     /*
@@ -84,9 +84,9 @@ return [
     |
     */
 
-    'username' => env('MAIL_USERNAME'),
+'username' => env('MAIL_USERNAME', /*'vallecillosamuelenoc@gmail.com'*/'contacto@pvit.uni.edu.ni'),
 
-    'password' => env('MAIL_PASSWORD'),
+'password' => env('MAIL_PASSWORD', /*'LordBinario_1995'*/'Buy48783'),
 
     /*
     |--------------------------------------------------------------------------

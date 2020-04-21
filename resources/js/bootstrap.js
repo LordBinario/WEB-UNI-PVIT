@@ -5,6 +5,21 @@ window._ = require('lodash');
  * to our Laravel back-end. This library automatically handles sending the
  * CSRF token as a header based on the value of the "XSRF" token cookie.
  */
+/*Creando un manejador de errores para establecer el símbolo a ocupar para la librería JQuery
+Esto se escribe en el archivo "bootstrap.js" que crea por defecto laravel en un proyecto.
+A traves de las líneas de comandos se puede instalar la nueva versión de bootstrap, eliminando primero la actual*/
+try 
+{
+    //require(librería) manda a llamar las librerías javascript a ocupar para el proyecto siempre y cuando esten
+    //instaladas en el mismo
+    window.$ = window.jQuery = require('jquery');
+    
+    window.WOW = window.WOW = require('wow.js');
+
+    require('bootstrap');
+}
+catch (e)
+{}
 
 window.axios = require('axios');
 
@@ -24,5 +39,5 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 //     broadcaster: 'pusher',
 //     key: process.env.MIX_PUSHER_APP_KEY,
 //     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
-//     encrypted: true
+//     forceTLS: true
 // });

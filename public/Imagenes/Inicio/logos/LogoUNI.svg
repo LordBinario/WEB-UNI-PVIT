@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="211.775" height="52.126" viewBox="0 0 211.775 52.126">
+  <g id="Grupo_4" data-name="Grupo 4" transform="translate(-39.554 -16.664)">
+    <g id="Grupo_3" data-name="Grupo 3">
+      <path id="Trazado_2" data-name="Trazado 2" d="M67.534,51.095H55.209V20.315h43.51V55.044h3.26V35.89H114.3V66.446H86.524V31.9H67.534Z" fill="#184376"/>
+      <path id="Trazado_3" data-name="Trazado 3" d="M83.04,66.464H39.554V20.331H51.877V55.079h18.85V35.908H83.04Z" fill="#184376"/>
+      <rect id="Rectángulo_5" data-name="Rectángulo 5" width="12.175" height="11.357" transform="translate(102.099 20.34)" fill="#184376"/>
+    </g>
+    <text id="Universidad_" data-name="Universidad 
+" transform="translate(106.58 16.664)" fill="#1c1c1b" font-size="17.664" font-family="Montserrat-ExtraBold, Montserrat" font-weight="800"><tspan x="10.634" y="17">Universidad </tspan></text>
+    <text id="Nacional_de_" data-name="Nacional de 
+" transform="translate(95.328 32.718)" fill="#1c1c1b" font-size="17.664" font-family="Montserrat-ExtraBold, Montserrat" font-weight="800"><tspan x="22.273" y="17">Nacional de</tspan><tspan y="17" font-size="16.251"> </tspan></text>
+    <text id="Ingeniería_" data-name="Ingeniería
+" transform="translate(98.334 47.79)" fill="#1c1c1b" font-size="17.664" font-family="Montserrat-ExtraBold, Montserrat" font-weight="800"><tspan x="19.051" y="17">Ingeniería</tspan></text>
+  </g>
+</svg>

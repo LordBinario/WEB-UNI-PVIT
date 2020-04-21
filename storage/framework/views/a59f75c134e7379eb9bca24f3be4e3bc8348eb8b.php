@@ -1,0 +1,1 @@
+<?php /**PATH C:\xampp\htdocs\ProyectoPVIT\resources\views/Descripcion.blade.php ENDPATH**/ ?>

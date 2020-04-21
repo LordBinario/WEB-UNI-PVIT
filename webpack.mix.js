@@ -11,5 +11,12 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
-    .sass('resources/sass/app.scss', 'public/css');
+mix.js(['resources/js/app.js',
+        'bootstrap/JS/slick.min.js'], 'public/js')
+    .styles([
+        'bootstrap/CSS/bootstrap.min.css',        
+        'bootstrap/CSS/slick.min.css',
+        'bootstrap/CSS/slick-theme.min.css',
+        'bootstrap/CSS/animate.min.css',
+        'bootstrap/CSS/Personalizado.min.css'
+    ], 'public/css/app.css');
